@@ -1,0 +1,15 @@
+{
+  "name": "hsk-lao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "แอปเรียนภาษาจีน HSK 1–4 (ไทย / ລາວ / 中文)",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node server.js",
+    "dev": "node scripts/build.js && node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
